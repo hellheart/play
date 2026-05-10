@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>用户资料</title>
+</head>
+<body>
+    <h1>用户资料</h1>
+    <p th:text="${user.name}">${user.name}</p>
+    <p th:text="${user.age}">${user.age}</p>
+    <a th:href="@{/user/edit}">编辑资料</a>
+</body>
+</html>
