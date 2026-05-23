@@ -24,9 +24,17 @@ public class BiliBiliController {
     @GetMapping("/ranking")
     @ResponseBody
     public ResponseEntity<Map<String, Object>> getRanking() {
-        try {
-            String url = "https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all";
+        return callBiliApi("https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all");
+    }
 
+    @GetMapping("/up-ranking")
+    @ResponseBody
+    public ResponseEntity<Map<String, Object>> getUpRanking() {
+        return callBiliApi("https://api.bilibili.com/x/web-interface/popular?pn=1&ps=50");
+    }
+
+    private ResponseEntity<Map<String, Object>> callBiliApi(String url) {
+        try {
             HttpHeaders headers = new HttpHeaders();
             headers.set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
             headers.set("Referer", "https://www.bilibili.com/");

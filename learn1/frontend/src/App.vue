@@ -6,7 +6,9 @@
       </div>
       <div class="nav-right">
         <router-link to="/" class="nav-link">用户管理</router-link>
-        <router-link to="/bilibili" class="nav-link">B站排行榜</router-link>
+        <router-link to="/bilibili" class="nav-link">B站视频</router-link>
+        <router-link to="/up-ranking" class="nav-link">UP主排行</router-link>
+        <router-link to="/open-api" class="nav-link">OpenAPI</router-link>
         <span class="nav-user">{{ userInfo ? userInfo.username : '' }}</span>
         <a href="#" class="nav-link" @click.prevent="handleLogout">退出</a>
       </div>

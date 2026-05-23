@@ -1,2 +1,12 @@
-package org.example.dao;public interface UserDao {
+package org.example.dao;
+
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.Map;
+
+@Mapper
+public interface UserDao {
+    List<Map<String, Object>> run();
 }

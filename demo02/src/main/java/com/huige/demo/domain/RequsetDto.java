@@ -1,2 +1,7 @@
-package com.huige.demo.domain;public class RequsetDto {
+package com.huige.demo.domain;
+
+import lombok.Data;
+
+@Data
+public class RequsetDto {
 }

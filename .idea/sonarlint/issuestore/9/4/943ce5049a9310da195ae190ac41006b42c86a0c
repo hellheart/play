@@ -1,0 +1,109 @@
+
+E
+java:S37403"/Provide the parametrized type for this generic.(à—îş
+F
+java:S3740Å"/Provide the parametrized type for this generic.(Ï×¾ƒ
+F
+java:S3740ù"/Provide the parametrized type for this generic.(ßÚ—Ù
+K
+java:S3740Ê"/Provide the parametrized type for this generic.(¯­œÓûÿÿÿÿ
+F
+java:S3740Ë"/Provide the parametrized type for this generic.(¿÷åä
+K
+java:S3740"/Provide the parametrized type for this generic.(‰²Éƒúÿÿÿÿ
+T
+java:S5993?"9Change the visibility of this constructor to "protected".(²…ı¶úÿÿÿÿ
+U
+java:S1161y":Add the "@Override" annotation above this method signature(ü¬ö’ùÿÿÿÿ
+Q
+java:S1133û"5Do not forget to remove this deprecated code someday.(Ëÿİùÿÿÿÿ
+Q
+java:S1133€"5Do not forget to remove this deprecated code someday.(âØ®öûÿÿÿÿ
+O
+java:S3878·"8Remove this array creation and simply pass the elements.(öì€
+O
+java:S3878¿"8Remove this array creation and simply pass the elements.(¹ÃÅ
+=
+java:S1452É"&Remove usage of generic wildcard type.(Íù‹¯
+O
+java:S3878–"8Remove this array creation and simply pass the elements.(²Ş Ğ
+R
+java:S1117¢";Rename "rgOname" which hides the field declared at line 54.(¿„®«
+T
+java:S3878¯"8Remove this array creation and simply pass the elements.(ÂâÚéúÿÿÿÿ
+H
+java:S1602´",Remove useless curly braces around statement(§¹»×ıÿÿÿÿ
+`
+java:S1612´"DReplace this lambda with method reference 'this::startAsyncTimeout'.(§¹»×ıÿÿÿÿ
+z
+java:S2142¾"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(üÿïüÿÿÿÿ
+T
+java:S3878Û"8Remove this array creation and simply pass the elements.(ÍõÁşøÿÿÿÿ
+T
+java:S3878ç"8Remove this array creation and simply pass the elements.(Û¶©ùÿÿÿÿ
+N
+java:S3878ï"8Remove this array creation and simply pass the elements.(§¬µR
+n
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¼şàÌÿÿÿÿÿ
+T
+java:S3878…"8Remove this array creation and simply pass the elements.(Ù¦ÂÊùÿÿÿÿ
+T
+java:S3878˜"8Remove this array creation and simply pass the elements.(çˆ‚äüÿÿÿÿ
+W
+java:S1117";Rename "rgOname" which hides the field declared at line 54.(ÿĞ¥ñøÿÿÿÿ
+T
+java:S3878¬"8Remove this array creation and simply pass the elements.(çˆ‚äüÿÿÿÿ
+W
+java:S1117±";Rename "rgOname" which hides the field declared at line 54.(ÿĞ¥ñøÿÿÿÿ
+O
+java:S3878½"8Remove this array creation and simply pass the elements.(öğ§Ä
+T
+java:S3878Ã"8Remove this array creation and simply pass the elements.(” Éıÿÿÿÿ
+F
+java:S2065É"0Remove the "transient" modifier from this field.(éÊ¾`
+V
+java:S1161Ğ":Add the "@Override" annotation above this method signature(ãÀŞìşÿÿÿÿ
+e
+java:S3551Ğ"IMake this method "synchronized" to match the parent class implementation.(ãÀŞìşÿÿÿÿ
+C
+java:S1125Ò"'Remove the unnecessary boolean literal.(öğò¹ÿÿÿÿÿ
+Q
+java:S1161â":Add the "@Override" annotation above this method signature(ø©ãÓ
+`
+java:S3551â"IMake this method "synchronized" to match the parent class implementation.(ø©ãÓ
+C
+java:S1905ã",Remove this unnecessary cast to "Processor".(ÈŸ¼Í
+V
+java:S1161ë":Add the "@Override" annotation above this method signature(ôÃ°áùÿÿÿÿ
+o
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 162 to the 15 allowed.(ñ¾»ùøÿÿÿÿ
+O
+java:S3878‘"8Remove this array creation and simply pass the elements.(‰ÓÌø
+O
+java:S3878š"8Remove this array creation and simply pass the elements.(‡òßÿ
+A
+java:S1181´"%Catch Exception instead of Throwable.(›¹£ıÿÿÿÿ
+O
+java:S3878¬"8Remove this array creation and simply pass the elements.(û…œ“
+O
+java:S3878°"8Remove this array creation and simply pass the elements.(ü¶Ò
+N
+java:S3878»"8Remove this array creation and simply pass the elements.(Úëƒ+
+O
+java:S3878Ã"8Remove this array creation and simply pass the elements.(û…œ“
+L
+java:S1874È"5Remove this use of "getSslSupport"; it is deprecated.(»ïÊĞ
+O
+java:S3878Ú"8Remove this array creation and simply pass the elements.(àš‰ú
+O
+java:S3878ä"8Remove this array creation and simply pass the elements.(×íÎÆ
+<
+java:S1181˜"%Catch Exception instead of Throwable.(Ïª²
+2
+java:S3626‘"Remove this redundant jump.(ûÁİ…
+2
+java:S3626•"Remove this redundant jump.(ûÁİ…
+r
+java:S1128*"\Remove this unused import 'org.apache.tomcat.util.net.AbstractEndpoint.Handler.SocketState'.(ò‡•
+Q
+java:S1141–"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ

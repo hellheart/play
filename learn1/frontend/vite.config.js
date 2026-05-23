@@ -23,6 +23,10 @@ export default defineConfig({
       '/api/bilibili': {
         target: 'http://localhost:9000',
         changeOrigin: true
+      },
+      '/api/open-api': {
+        target: 'http://localhost:9000',
+        changeOrigin: true
       }
     }
   }

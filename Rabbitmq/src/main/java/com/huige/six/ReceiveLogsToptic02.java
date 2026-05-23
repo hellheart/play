@@ -7,16 +7,17 @@ import com.rabbitmq.client.DeliverCallback;
 
 import java.nio.charset.StandardCharsets;
 
-public class ReceiveLogsToptic01 {
+public class ReceiveLogsToptic02 {
     public static final String EXCHANGE_NAME = "topic_log";
 
     public static void main(String[] args) throws Exception{
         Channel channel = RabbitMqUtil.getChannel();
         channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.TOPIC);
-        String queueName = "Q1";
+        String queueName = "Q2";
         channel.queueDeclare(queueName,false,false,false,null);
-        channel.queueBind(queueName, EXCHANGE_NAME,"*.orange.*");
-        System.out.println("C1准备接收消息");
+        channel.queueBind(queueName, EXCHANGE_NAME,"*.*.rabbit");
+        channel.queueBind(queueName, EXCHANGE_NAME,"lazy.#");
+        System.out.println("C2准备接收消息");
         DeliverCallback deliverCallback = (tag , message) -> {
             System.out.println(new String(message.getBody(), StandardCharsets.UTF_8));
         };

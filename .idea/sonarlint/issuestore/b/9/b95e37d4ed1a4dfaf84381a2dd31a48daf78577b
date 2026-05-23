@@ -1,0 +1,8 @@
+
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³Šà%
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾æÙô
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ”îü
+r
+java:S1192"WDefine a constant instead of duplicating this literal "x-dead-letter-exchange" 3 times.(İŸºîøÿÿÿÿ
+p
+java:S1192"ZDefine a constant instead of duplicating this literal "x-dead-letter-routing-key" 3 times.(×åãÎ

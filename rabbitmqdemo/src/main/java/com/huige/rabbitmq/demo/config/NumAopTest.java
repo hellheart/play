@@ -1,2 +1,7 @@
-package com.huige.rabbitmq.demo.config;public class NumAopTest {
+package com.huige.rabbitmq.demo.config;
+
+
+public class NumAopTest {
+
+
 }

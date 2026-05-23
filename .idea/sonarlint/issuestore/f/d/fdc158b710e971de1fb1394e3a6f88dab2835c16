@@ -1,0 +1,4 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù¼Ãäûÿÿÿÿ
+_
+java:S1128"DRemove this unused import 'com.rabbitmq.client.BuiltinExchangeType'.(›è±èüÿÿÿÿ

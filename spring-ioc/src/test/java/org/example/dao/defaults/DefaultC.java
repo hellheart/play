@@ -1,4 +1,4 @@
 package org.example.dao.defaults;
 
-public interface DefaultA {
+public interface DefaultC extends DefaultB{
 }

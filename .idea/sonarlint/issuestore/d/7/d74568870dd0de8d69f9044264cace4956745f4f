@@ -1,0 +1,6 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ê­õ
+s
+java:S1128"XRemove this unused import 'com.sun.xml.internal.ws.message.source.PayloadSourceMessage'.(†ÞÇ›ùÿÿÿÿ
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(†ÞÇ›ùÿÿÿÿ

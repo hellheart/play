@@ -1,2 +1,5 @@
-package com.athuige.demo;public interface MyCalss {
+package com.athuige.demo;
+
+public interface MyCalss {
+    String sendMsg(String message);
 }

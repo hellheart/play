@@ -1,2 +1,6 @@
-package org.example.myenum;public class Signal {
+package org.example.myenum;
+
+public enum Signal {
+    RED, YELLOW, BLUE;
 }
+

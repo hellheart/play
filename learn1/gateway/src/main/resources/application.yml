@@ -11,6 +11,10 @@ spring:
           uri: http://localhost:8080
           predicates:
             - Path=/auth/**
+        - id: openapi-service
+          uri: http://localhost:8080
+          predicates:
+            - Path=/api/open-api/**
         - id: user-service
           uri: http://localhost:8080
           predicates:

@@ -1,0 +1,7 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ú”’ÿÿÿÿÿ
+B
+java:S1602",Remove useless curly braces around statement(ôœÙô
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÉÎãÕ
+j
+java:S1192"HDefine a constant instead of duplicating this literal "console" 4 times.(íæ¦¥ûÿÿÿÿ8°—ƒä—0
